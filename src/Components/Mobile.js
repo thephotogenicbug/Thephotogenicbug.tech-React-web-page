@@ -9,7 +9,7 @@ const Mobile = ({isOpen, setIsOpen}) => {
         </div>  
         <div className="mobile-options">
         <div className="mobile-option">
-               <Link to="projects">
+               <Link to="/">
                <i className="fas fa-home option-icon"></i>Home
                </Link>
            </div>
