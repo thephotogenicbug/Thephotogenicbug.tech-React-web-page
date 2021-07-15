@@ -15,7 +15,7 @@ class Home extends Component{
             <div className="container mt-5">
             <div className="row">
                 <div className="col-md-6" id="about-top">
-                <h1>thephotogenicbug.tech i am a  <br/>
+                <h1>thephotogenicbug.tech <br/> <span id="span-title">i am a</span> <br/>
                 <span className="info-name">FullStack Web Developer</span></h1>
                 </div>
                 <div className="col-md-6">
