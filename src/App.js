@@ -9,7 +9,7 @@ function App() {
     <div className="App">
      <HashRouter>
      <Helmet>
-        <title>thephotogenicbug.tech</title>
+        <title>thephotogenicbug</title>
         <link rel="canonical" href="https://www.thephotogenicbug.tech/" />
          <meta name="description" content="thephotogenicbug.tech im a full stack Web Developer i work on ReactJS Bootstrap JavaScript NodeJS Server and MySQL DataBase"/>
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
