@@ -6,7 +6,6 @@ import Skills from './Skills';
 import Projects from './Project'
 import Github from './github.svg'
 import Linkedin from './linkedin.svg'
-import {Helmet} from 'react-helmet'
 class Home extends Component{
 
 
