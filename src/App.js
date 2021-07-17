@@ -4,7 +4,10 @@ import Header from './Components/Header';
 import Home from './Components/Home';
 import Blogs from './Components/Blogs';
 import {Helmet} from 'react-helmet'
+import ReactGA from 'react-ga';
 function App() {
+  ReactGA.initialize('G-74JDQHG1HS');
+    ReactGA.pageview('/');
   return (
     <div className="App">
      <HashRouter>
