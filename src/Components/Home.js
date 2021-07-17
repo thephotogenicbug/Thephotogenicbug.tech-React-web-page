@@ -3,6 +3,7 @@ import './Home.css'
 import Code from './code.svg'
 import Separator from './Separator';
 import Skills from './Skills';
+import Projects from './Project'
 import Github from './github.svg'
 import Linkedin from './linkedin.svg'
 import {Helmet} from 'react-helmet'
@@ -32,11 +33,9 @@ class Home extends Component{
             <Separator/>
             <div className="row" id="skills">
                 <Skills/>
-             
-               
             </div>
             <div className="row">
-            {/* <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="naveen-kumar-b85416177" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/naveen-kumar-b85416177?trk=profile-badge">Naveen kumar</a></div> */}
+              <Projects/>
               
             </div>
         </div>

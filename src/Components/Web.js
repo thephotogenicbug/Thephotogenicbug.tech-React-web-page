@@ -5,7 +5,7 @@ const Web = () => {
     return (
         <div className="web">
               <div className="web-option">
-               <Link to="/">
+               <Link to='/'>
                <i className="fas fa-home option-icon"></i>Home
                </Link>
            </div>
