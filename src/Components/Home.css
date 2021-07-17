@@ -38,6 +38,10 @@
     align-items: center;
     font-size: 24px;
 }
+.img-fluid{
+    height:450px;
+    margin-left:120px
+}
 
 #icons{
     font-size:80px;
@@ -51,7 +55,7 @@
         font-size: 20px;
         
     }
-    .mobile{
+    .img-fluid{
         height:300px;
         margin-left: 90px;
       
