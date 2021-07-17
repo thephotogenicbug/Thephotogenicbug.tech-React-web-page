@@ -15,6 +15,14 @@ function App() {
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <meta name="keywords" content=""/>
           <meta name="google-site-verification" content="VxtjUUie7hzjDqqYv_Go2dqh37n0DuRZpH9XAD45WaI" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-74JDQHG1HS"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)}
+            gtag('js', new Date());
+
+            gtag('config', 'G-74JDQHG1HS');
+          </script>
        </Helmet>
       <Header/>
       <Route exact path="/" component={Home}/>
