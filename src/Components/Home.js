@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './Home.css'
 import Code from './code.svg'
+import Banner from './bootstrap-docs.png'
 import Separator from './Separator';
 import Skills from './Skills';
 import Projects from './Project'
@@ -14,13 +15,14 @@ class Home extends Component{
            
             <div className="container mt-5">
             <div className="row">
-                <div className="col-md-6" id="about-top">
-                <h1>thephotogenicbug <br/> <span id="span-title">i am a</span> <br/>
+            <div className="px-4 pt-5 my-5 text-center border-bottom">
+            <h1>thephotogenicbug <br/> <span id="span-title">i am a</span> <br/>
                 <span className="info-name">FullStack Web Developer</span></h1>
+                <div className="col-lg-6 mx-auto">
+                <p className="lead mb-4 fw-bold">This is my Portfolio and Blogging webpage i share Website Design and Source Code </p>
+                <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5 ">
                 </div>
-                <div className="col-md-6">
-                    <img src={Code} className="img-fluid"  alt="hero-img" title="hero-img"/> 
-                </div>
+            </div>
             </div>
             <div className='row'>
                 <div className='col-md-12 text-center'>
@@ -37,6 +39,7 @@ class Home extends Component{
               <Projects/>
               
             </div>
+        </div>
         </div>
       
         )
