@@ -11,7 +11,7 @@ function Projects() {
             <h3 className="section-title">Projects</h3>
             <div>
               {data.map((project)=>{
-                  return <ProjectCard project={project}  />
+                  return <ProjectCard project={project}   />
               })}
             </div>
         </div>

@@ -31,7 +31,7 @@ function ProjectCard({project}) {
             </div>
 
             </div>
-            <img src={project.image} className="project-image"/>
+            <img src={project.image} className="project-image" alt="project-image" title="project-image" height="40%" width="40%"/>
         </div>
     )
 }

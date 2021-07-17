@@ -38,16 +38,10 @@
     align-items: center;
     font-size: 24px;
 }
-.img-fluid{
-    height:450px;
-    margin-left:120px
-}
 
 #icons{
     font-size:80px;
 }
-
-
 
 @media screen and (max-width:768px){
     #about-top{

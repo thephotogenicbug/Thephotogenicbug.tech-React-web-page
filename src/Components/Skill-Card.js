@@ -1,5 +1,4 @@
 import React from 'react'
-import { SkillsData } from './SkillData'
 import './Skill-Card.css'
 function  SkillCard({skill}) {
     return (

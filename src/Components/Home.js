@@ -19,7 +19,7 @@ class Home extends Component{
                 <span className="info-name">FullStack Web Developer</span></h1>
                 </div>
                 <div className="col-md-6">
-                    <img src={Code} className="img-fluid"  alt="hero-img" title="hero-img"/> 
+                    <img src={Code}  height="450px" width="450px" style={{marginLeft:'120px'}} alt="hero-img" title="hero-img"/> 
                 </div>
             </div>
             <div className='row'>

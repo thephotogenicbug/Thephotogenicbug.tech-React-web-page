@@ -15,7 +15,7 @@ export const ProjectData=[
         tags:["HTML", "CSS", "Bootstrap", "JavaScript"],
         github:'https://github.com/thephotogenicbug/EDUPROV',
         demo :'https://eduprov.com/',
-        image:require('./Eduprov_design.png').default,
+        image:require('./Eduprov_design.png').default ,
 
     }
 ]
