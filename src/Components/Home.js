@@ -13,7 +13,7 @@ class Home extends Component{
     render(){
         return(
            
-            <div className="container mt-5">
+            <div className="container mt-3">
             <div className="row">
             <div className="px-4 pt-5 my-5 text-center border-bottom">
             <h1>thephotogenicbug <br/> <span id="span-title">i am a</span> <br/>
