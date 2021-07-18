@@ -3,6 +3,10 @@ export const SkillsData=[
      type:"Frontend",
      list:[
          {
+            name:"HTML",
+            icon:<i class="devicon-html5-plain colored"></i>
+         },
+         {
              name:"ReactJS",
              icon:<i class="devicon-react-original-wordmark colored"></i>
          },
@@ -12,8 +16,9 @@ export const SkillsData=[
          },
          {
              name:"Bootstrap",
-             icon:<i class="devicon-bootstrap-plain-wordmark colored"></i>
+             icon:<i class="devicon-bootstrap-plain colored"></i>
          },
+        
      ],
     },
     {
@@ -21,20 +26,20 @@ export const SkillsData=[
      list:[
          {
              name:"NodeJS",
-             icon:<i class="devicon-nodejs-plain-wordmark colored"></i>
- 
+             icon:<i class="devicon-nodejs-plain colored"></i>
          },
          {
              name:"MySQL",
-             icon:<i class="devicon-mysql-plain-wordmark colored"></i>
- 
+             icon:<i class="devicon-mysql-plain colored"></i>
          },
          {
              name:"Express",
-             icon:<i class="devicon-express-original-wordmark colored"></i>
- 
- 
+             icon:<i class="devicon-express-original colored"></i>
          },
+         {
+             name: "MongoDB",
+             icon:<i class="devicon-mongodb-plain colored"></i>
+         }
      ],
     },
  

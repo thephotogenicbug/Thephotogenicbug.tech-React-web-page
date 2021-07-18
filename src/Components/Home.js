@@ -1,12 +1,10 @@
 import React,{Component} from 'react';
 import './Home.css'
-import Code from './code.svg'
-import Banner from './bootstrap-docs.png'
 import Separator from './Separator';
 import Skills from './Skills';
 import Projects from './Project'
-import Github from './github.svg'
-import Linkedin from './linkedin.svg'
+import Github from '../assets/github.svg'
+import Linkedin from '../assets/linkedin.svg'
 class Home extends Component{
 
 
