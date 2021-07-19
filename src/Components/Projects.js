@@ -4,7 +4,7 @@ export const ProjectData=[
         title:'Lead Management System',
         about:'LeadManagement system using ReactJS and api to manage customer details',
         tags:["ReactJS", "API"],
-        github:'https://github.com/thephotogenicbug/EDUPROV',
+        github:'https://github.com/thephotogenicbug/ReactJS-Lead-Management-New',
         demo :'',
         image:require('../assets/Lead-Management.webp').default,
     },
