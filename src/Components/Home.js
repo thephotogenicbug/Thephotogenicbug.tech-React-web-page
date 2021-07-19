@@ -35,7 +35,9 @@ class Home extends Component{
             </div>
             <div className="row">
               <Projects/>
-              
+            </div>
+            <div className="row">
+            <Separator/>
             </div>
         </div>
         </div>
