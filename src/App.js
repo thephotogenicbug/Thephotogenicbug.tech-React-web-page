@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import Blogs from './Components/Blogs';
@@ -10,7 +10,7 @@ function App() {
     ReactGA.pageview('/');
   return (
     <div className="App">
-     <HashRouter>
+     <Router>
      <Helmet>
         <title>thephotogenicbug FullStack Web Developer in Bangalore - Portfolio</title>
         <link rel="canonical" href="https://www.thephotogenicbug.in/" />
@@ -24,7 +24,7 @@ function App() {
       <Header/>
       <Route exact path="/" component={Home}/>
       <Route exact path="/blogs" component={Blogs}/>
-     </HashRouter>
+     </Router>
     </div>
   );
 }
