@@ -5,8 +5,6 @@ import Home from './Components/Home';
 import Blogs from './Components/Blogs';
 import {Helmet} from 'react-helmet'
 import ReactGA from 'react-ga';
-import { Person } from "schema-dts";
-import { helmetJsonLdProp } from "react-schemaorg";
 function App() {
   ReactGA.initialize('G-74JDQHG1HS');
     ReactGA.pageview('/');
@@ -39,19 +37,7 @@ function App() {
           <link rel="apple-touch-icon" href="#"  alt="thephotogenicbug logo" title="thephotogenicbug logo" />
           <meta name="author" content="thephotogenicbug"/>
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-74JDQHG1HS"></script>
-          script={[
-          helmetJsonLdProp<Person>({
-            "@context": "https://schema.org",
-            "@type": "Person",
-            name: "thephotogenicbug",
-            alternateName: "NaveenKumar",
-            alumniOf: {
-              "@type": "BlogPosting",
-              name: ["thephotogenicbug FullStack Web Developer in Bangalore", "thephotogenicbug FullStack Web Developer in Bangalore - Portfolio"],
-            },
-            knowsAbout: ["web development", "Web Designing" , "Web Development Blogs"],
-          }),
-        ]}
+      
        </Helmet>
       <Header/>
       <Route exact path="/" component={Home}/>
