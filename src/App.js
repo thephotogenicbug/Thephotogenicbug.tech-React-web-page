@@ -5,6 +5,8 @@ import Home from './Components/Home';
 import Blogs from './Components/Blogs';
 import {Helmet} from 'react-helmet'
 import ReactGA from 'react-ga';
+import { Person } from "schema-dts";
+import { helmetJsonLdProp } from "react-schemaorg";
 function App() {
   ReactGA.initialize('G-74JDQHG1HS');
     ReactGA.pageview('/');
@@ -22,7 +24,7 @@ function App() {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="thephotogenicbug FullStack Web Developer in Bangalore - Portfolio" />
           <meta property="og:url" content="https://www.thephotogenicbug.in/" />
-          <meta property="og:site_name" content="Eduprov Educational Institute" />
+          <meta property="og:site_name" content="thephotogenicbug FullStack Web Developer in Bangalore - Portfolio" />
           <meta property="og:description"
             content="thephotogenicbug FullStack Web Developer i work on ReactJS Bootstrap JavaScript NodeJS Server and MySQL DataBase This is my Portfolio and Blogging webpage" />
           <meta property="og:image" content="#" />
